@@ -1,0 +1,10 @@
+	Am realizat un meniu, prin care utilizatorul isi poate alege daca vrea el sa inceapa sau nu. 
+In cazul in care acesta vrea sa inceapa, am initializat matricea, am afisat un meniu prin care utilizatorul 
+isi poate alege cu ce vrea sa joace. Am citit de la tastatura linia si coloana unde utilizatorul doreste 
+sa plaseze mutarea, in cazul in care aceasta este egala cu 'q', realizandu-se iesirea din joc. Apoi am pus 
+mutarea pe tabla, am afisat matricea.
+	Pentru mutarea calculatorului, pozitiile au fost generate random.
+	La a doua mutare a utilizatorului am verificat daca pozitia era ocupata sau nu, iar in caz afirmativ, 
+utilizatorul a fost rugat sa intrpoduca o noua mutare. Se repeta pasii pana cand exista un castigator/remiza. 
+Castigarea este verficata prin functia win.m care parcurge matricea si verifica daca una dintre piese(x sau 0) 
+se afla pe o diagonala, linie sau coloana.
